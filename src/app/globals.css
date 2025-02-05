@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --base-100: #272829;
-  --base-200: #34353a;
-  --base-300: #3d3e42;
-  --base-content: #fffff0;
-  --base-content-secondary: #faf9f6;
+  --base-100: #0f0f0f;
+  --base-200: #212121;
+  --base-300: #2c2b2b;
+  --base-content: #cfcfcf;
+  --base-content-secondary: #acacac;
+  --primary: #F5AF00;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +20,12 @@
 
 body {
   color: var(--base-content);
-  background: var(--base-100);
+  background: var(--base-200);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .main-container {
+    @apply max-w-screen-xl mx-auto px-5;
+  }
 }
