@@ -8,7 +8,7 @@
   --base-300: #2c2b2b;
   --base-content: #cfcfcf;
   --base-content-secondary: #acacac;
-  --primary: #f5af00;
+  --primary: rgb(245, 175, 0);
   --primary-content: #131616;
 }
 

@@ -15,7 +15,7 @@ export default {
         "base-300": "var(--base-300)",
         "base-content": "var(--base-content)",
         "base-content-secondary": "var(--base-content-secondary)",
-        primary: "var(--primary)",
+        primary: "rgb(245, 175, 0)",
         "primary-content": "var(--primary-content)",
       },
       fontFamily: {
