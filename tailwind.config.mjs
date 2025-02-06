@@ -5,6 +5,7 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/shared/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -15,6 +16,11 @@ export default {
         "base-content": "var(--base-content)",
         "base-content-secondary": "var(--base-content-secondary)",
         primary: "var(--primary)",
+        "primary-content": "var(--primary-content)",
+      },
+      fontFamily: {
+        bricolageGrotesque: ["var(--font-bricolage-grotesque)"],
+        pacifico: ["var(--font-pacifico)"],
       },
     },
   },

@@ -1,14 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bricolage_Grotesque, Pacifico } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/shared/navbar/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const pacifico = Pacifico({
+  weight: "400",
+  variable: "--font-pacifico",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const bricolageGrotesque = Bricolage_Grotesque({
+  variable: "--font-bricolage-grotesque",
   subsets: ["latin"],
 });
 
@@ -21,12 +22,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${bricolageGrotesque.variable} ${pacifico.variable} antialiased font-bricolageGrotesque`}
       >
         <header>
           <Navbar />
         </header>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
