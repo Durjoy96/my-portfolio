@@ -14,7 +14,7 @@ import nextjsImg from "../../assets/icons/nextjs.png";
 const Skills = () => {
   const technologies = [
     {
-      title: "HTML",
+      title: "HTML5",
       imgUrl: htmlImg,
     },
     {
@@ -26,12 +26,12 @@ const Skills = () => {
       imgUrl: tailwindcssImg,
     },
     {
-      title: "React",
-      imgUrl: reactImg,
-    },
-    {
       title: "JavaScript",
       imgUrl: jsImg,
+    },
+    {
+      title: "React",
+      imgUrl: reactImg,
     },
     {
       title: "Firebase",
@@ -56,8 +56,8 @@ const Skills = () => {
   ];
   return (
     <>
-      <section className="bg-base-100">
-        <div className="main-container mt-12 md:mt-20 lg:mt-32 pt-12 md:pt-20 lg:pt-32">
+      <section className="bg-base-100" id="skills">
+        <div className="main-container mt-12 md:mt-20 lg:mt-32 py-12 md:py-20 lg:py-32">
           <Label text="Skills" />
           <h2 className="text-2xl md:text-4xl font-bold text-base-content mt-6">
             What I Bring to the Table

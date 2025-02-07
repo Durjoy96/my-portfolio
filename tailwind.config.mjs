@@ -11,8 +11,8 @@ export default {
     extend: {
       colors: {
         "base-100": "var(--base-100)",
-        "base-200": "var(--base-200)",
-        "base-300": "var(--base-300)",
+        "base-200": "#212121",
+        "base-300": "#424242",
         "base-content": "var(--base-content)",
         "base-content-secondary": "var(--base-content-secondary)",
         primary: "rgb(245, 175, 0)",
