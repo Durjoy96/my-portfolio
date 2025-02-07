@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Navbar = () => {
   const navPages = [
     {
@@ -18,9 +20,11 @@ const Navbar = () => {
       <nav className="main-container py-4">
         <div className="flex items-center flex-wrap gap-6 md:gap-32">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">
-              durjoy.dev
-            </h2>
+            <Link href="/">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary">
+                durjoy.dev
+              </h2>
+            </Link>
           </div>
           <div>
             <ul className="flex gap-3 md:gap-12 text-sm md:text-base font-normal">

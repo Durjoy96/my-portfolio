@@ -15,12 +15,12 @@ const Projects = () => {
     },
     {
       title: "Titly",
-      url: "",
+      url: "/projects/titly",
       image: titlyImg,
     },
     {
       title: "Paraz",
-      url: "",
+      url: "/projects/paraz",
       image: parazImg,
     },
   ];
@@ -41,7 +41,7 @@ const Projects = () => {
                 <Image
                   className="rounded-lg"
                   src={project.image}
-                  key={project.title}
+                  alt={project.title}
                 />
                 <h3 className="mt-6 text-2xl font-medium text-base-content">
                   {project.title}
