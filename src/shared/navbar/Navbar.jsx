@@ -14,6 +14,10 @@ const Navbar = () => {
       title: "Projects",
       url: "#projects",
     },
+    {
+      title: "Contact",
+      url: "#contact",
+    },
   ];
   return (
     <>
@@ -27,7 +31,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <ul className="flex gap-3 md:gap-12 text-sm md:text-base font-normal">
+            <ul className="flex gap-3 md:gap-12 text-xs md:text-base font-normal">
               {navPages.map((page, idx) => (
                 <a
                   href={`${page.url}`}
