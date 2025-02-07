@@ -1,3 +1,5 @@
+import Label from "../sectionLabel/Label";
+
 const Contact = () => {
   return (
     <>
@@ -7,7 +9,8 @@ const Contact = () => {
       >
         <div className="main-container lg:px-0 grid grid-cols-1 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0">
-            <h1 className="text-4xl font-bold">Get in touch</h1>
+            <Label text="Contact"></Label>
+            <h1 className="text-4xl font-bold mt-6">Get in touch</h1>
             <p className="pt-2 pb-4">
               Fill in the form to start a conversation
             </p>

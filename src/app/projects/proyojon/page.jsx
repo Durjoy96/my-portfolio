@@ -5,7 +5,7 @@ import { ExternalLink } from "lucide-react";
 const Proyojon = () => {
   return (
     <>
-      <section className="main-container flex flex-col md:flex-row items-start gap-6 mt-12">
+      <section className="main-container flex flex-col md:flex-row items-start gap-6 my-12 md:my-20 lg:my-32">
         <div className="bg-base-300 p-6 rounded-lg border border-white/40 max-w-xl ">
           <Image className="rounded-lg" src={proyojonImg} alt="proyojon" />
         </div>
