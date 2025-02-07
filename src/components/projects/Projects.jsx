@@ -10,7 +10,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Proyojon",
-      url: "",
+      url: "/projects/proyojon",
       image: proyojonImg,
     },
     {
