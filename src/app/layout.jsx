@@ -1,6 +1,7 @@
 import { Bricolage_Grotesque, Pacifico } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/shared/navbar/Navbar";
+import Footer from "@/shared/footer/Footer";
 
 const pacifico = Pacifico({
   weight: "400",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
           <Navbar />
         </header>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

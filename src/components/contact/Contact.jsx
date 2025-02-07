@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <>
       <section
-        className="bg-base-100 mt-12 md:mt-20 lg:mt-32 py-12 md:py-20 lg:py-32 dark:bg-gray-100 dark:text-gray-900"
+        className="bg-base-100 py-12 md:py-20 lg:py-32 dark:bg-gray-100 dark:text-gray-900"
         id="contact"
       >
         <div className="main-container lg:px-0 grid grid-cols-1 md:grid-cols-2 md:divide-x">
