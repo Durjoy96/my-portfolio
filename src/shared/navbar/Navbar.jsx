@@ -14,10 +14,6 @@ const Navbar = () => {
       title: "Projects",
       url: "#projects",
     },
-    {
-      title: "Contact",
-      url: "#contact",
-    },
   ];
   return (
     <>
