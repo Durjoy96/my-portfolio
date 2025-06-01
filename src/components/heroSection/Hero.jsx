@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section className="main-container mt-12">
         <div className="flex flex-col-reverse gap-8 md:gap-12 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
-          <div className="max-w-xl">
+          <div data-aos="fade-right" className="max-w-xl">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">
                 <span className="font-pacifico">1st</span> , I'm a{" "}
@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
             <button className="primary-btn mt-12">Download resume</button>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <Image src={bannerImg} alt="hero-image"></Image>
           </div>
         </div>
