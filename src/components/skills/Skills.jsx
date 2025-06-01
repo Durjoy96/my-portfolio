@@ -64,7 +64,10 @@ const Skills = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 md:mt-12">
             {technologies.map((technology, idx) => (
-              <div className="bg-base-200 rounded-lg p-6" key={idx}>
+              <div
+                className="bg-base-200 rounded-lg p-6 hover:bg-base-200/70 cursor-default transition-all duration-300 ease-in-out"
+                key={idx}
+              >
                 <div className="w-14 h-14 mx-auto">
                   <Image
                     src={technology.imgUrl}
