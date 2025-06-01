@@ -33,8 +33,11 @@ const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 md:mt-12">
             {projects.map((project, idx) => (
-              <Link href={project.url}>
-                <div key={idx} className="bg-transparent rounded-lg group">
+              <Link key={idx} href={project.url}>
+                <div
+                  data-aos="fade-up"
+                  className="bg-transparent rounded-lg group"
+                >
                   <div className="relative">
                     <Image
                       className="rounded-lg"

@@ -65,6 +65,7 @@ const Skills = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 md:mt-12">
             {technologies.map((technology, idx) => (
               <div
+                data-aos="fade-up"
                 className="bg-base-200 rounded-lg p-6 hover:bg-base-200/70 cursor-default transition-all duration-300 ease-in-out"
                 key={idx}
               >
