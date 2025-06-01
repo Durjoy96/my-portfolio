@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bannerImg from "../../assets/images/banner.png";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,7 +25,13 @@ const Hero = () => {
               I love building clean, user-friendly websites that just work.
               Let’s make something awesome together!
             </p>
-            <button className="primary-btn mt-12">Download resume</button>
+            <Link
+              href="https://drive.google.com/file/d/1yyz-CtcpEas52duuQJEV1PIU2R8IGO_y/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="primary-btn mt-12">Download resume</button>
+            </Link>
           </div>
           <div data-aos="fade-up">
             <Image src={bannerImg} alt="hero-image"></Image>
